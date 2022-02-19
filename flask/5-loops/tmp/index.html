@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Loop</title>
+</head>
+    <body>
+        <span><h1 style="background-color:blue;border:1px solid;shadow-box:1px 1px 3px blue;">Wellcom</h1></span>
+
+        <br/>
+
+        {{ names }}
+        <br/><br/><br/>
+        <ul>
+        {% for names2 in names2 %}
+            <li>{{ names2 + "/" }}</li>
+        {% endfor %}
+        </ul>
+
+        <br/><br/>
+        <table border="1px">
+            <tr>
+        {% for fori in fori %}
+                {% if fori % 2 == 0 %}
+                <th style="posi">{{ fori }}</th>
+                {% else %}
+                    {{ pass }}
+                {% endif %}
+        {% endfor %}
+            </tr>
+        </table>
+    </body>
+</html>

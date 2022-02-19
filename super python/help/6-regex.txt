@@ -1,0 +1,15 @@
+. = All
+\d = digital = just numbers
+\w = words = just words
+\s = space
+* = All(all)
++ = حداقل
+exp a+
+^a
+$ = finish
+start.*?finish
+s..\.com
+ali{1,4}
+ali{5}
+else<>
+[^ab]

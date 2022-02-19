@@ -1,0 +1,20 @@
+install Qt designer 
+************************************
+
+Linux(ubuntu)
+
+	sudo apt-get install python-qt4 qt4-designer
+
+	https://askubuntu.com/questions/763877/how-to-install-and-run-qt-designer-for-python
+
+Windows
+
+	https://build-system.fman.io/qt-designer-download
+
+	https://stackoverflow.com/questions/30222572/how-to-install-qtdesigner
+
+Mac
+
+	https://build-system.fman.io/qt-designer-download
+
+	https://stackoverflow.com/questions/26226730/where-is-qt-designer-app-on-mac-anaconda

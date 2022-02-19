@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Be Mola KE</title>
+</head>
+    <body>
+        <h1>FORM</h1>
+        <form action="{{ url_for('submit') }}" method="get">
+            <input type="text" name="username">
+            <input type="submit" name="password">
+        </form>
+    <br/>
+    <br/>
+    {% if rh == None %}
+        <p>USERNAME NOtFound!</p>
+    {% else %}
+    <span>UserName:</span>{{ rh }}
+    {% endif %}
+    </body>
+</html>
